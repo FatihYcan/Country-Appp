@@ -1,9 +1,12 @@
+// Selectors
 const searchInput = document.querySelector("#search");
 const searchDiv = document.querySelector("#searchDiv");
 const countries = document.querySelector(".countries");
 
+// Ülkeleri bir dizide saklıyoruz
 let newData = [];
 
+// Ülke bilgilerini alıyoruz
 const getCountry = async (name = "") => {
   const BASE_URL = name
     ? `https://restcountries.com/v3.1/name/${name}`
@@ -30,10 +33,12 @@ const getCountry = async (name = "") => {
   }
 };
 
+// Sayfa yüklendiğinde çalışacak fonksiyon
 window.addEventListener("load", () => {
   getCountry();
 });
 
+// Ülke bilgilerini render ediyoruz
 const renderCountry = (data) => {
   data.forEach((i) => {
     const {
@@ -139,6 +144,7 @@ const renderCountry = (data) => {
   });
 };
 
+// Arama inputunu
 searchInput.addEventListener("input", (e) => {
   searchDiv.innerHTML = "";
   newData
@@ -158,6 +164,7 @@ searchInput.addEventListener("input", (e) => {
     });
 });
 
+// Arama sonuçlarına tıklama
 searchDiv.addEventListener("click", async (e) => {
   const countryName = e.target.textContent;
   if (countryName) {

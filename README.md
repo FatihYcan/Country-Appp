@@ -13,7 +13,7 @@ This project includes a web application that displays information about the coun
 
 - HTML5
 - CSS3
--JavaScript
+- JavaScript
 - Bootstrap
 - REST API [REST Countries API](https://restcountries.com/)
 

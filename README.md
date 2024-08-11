@@ -1,38 +1,40 @@
 # CountryApp
 
-This project is a web application used to search and display information about countries around the world. It retrieves country information using the REST Countries API and allows the user to search and view country details.
+This project includes a web application that displays information about the countries of the world. The application allows users to search for countries and view details of the selected country. The project pulls country data using REST API and is styled with Bootstrap.
 
 ## Features
 
-- **Search:** You can search by country name and see the search results.
-- **Detailed Information:** You can view the selected country's flag, name, region, capital, languages, currencies, population, neighboring countries and map link.
-- **Design:** A responsive design was created using Bootstrap 5.
+- Finding countries by searching
+- View details of the selected country
+- Show country flag, name, region, capital, languages, currencies, population and neighboring countries
+- Providing map link of the country
 
 ## Technologies
 
-- **HTML**
-- **CSS**
-- **JavaScript**
-- **Bootstrap 5**
-- **REST Countries API**
+- HTML5
+- CSS3
+-JavaScript
+- Bootstrap
+- REST API [REST Countries API](https://restcountries.com/)
 
 # Country App
 
-Bu proje, dünya üzerindeki ülkeler hakkında bilgi aramak ve görüntülemek için kullanılan bir web uygulamasıdır. REST Countries API'sını kullanarak ülke bilgilerini çeker ve kullanıcıya arama yapma ve ülke detaylarını görüntüleme imkanı sağlar.
+Bu projede dünya ülkelerinin bilgilerini gösteren bir web uygulaması bulunmaktadır. Uygulama, kullanıcıların ülkeleri aramasına ve seçilen ülkenin detaylarını görüntülemesine olanak tanır. Proje, REST API kullanarak ülke verilerini çekmektedir ve Bootstrap ile stil verilmiştir.
 
 ## Özellikler
 
-- **Arama:** Ülke adı ile arama yapabilir ve arama sonuçlarını görebilirsiniz.
-- **Detaylı Bilgi:** Seçilen ülkenin bayrağı, adı, bölgesi, başkenti, dilleri, para birimleri, nüfusu, komşu ülkeleri ve harita bağlantısını görüntüleyebilirsiniz.
-- **Tasarım:** Bootstrap 5 kullanılarak responsive bir tasarım oluşturulmuştur.
+- Ülkeleri arayarak bulma
+- Seçilen ülkenin detaylarını görüntüleme
+- Ülke bayrağını, adı, bölgesi, başkenti, dillerini, para birimlerini, nüfusunu ve komşu ülkelerini gösterme
+- Ülkenin harita bağlantısını sağlama
 
 ## Teknolojiler
 
-- **HTML**
-- **CSS**
-- **JavaScript**
-- **Bootstrap 5**
-- **REST Countries API**
+- HTML5
+- CSS3
+- JavaScript
+- Bootstrap
+- REST API [REST Countries API](https://restcountries.com/)
 
 https://github.com/user-attachments/assets/e9ca0683-6cbd-4f11-95a0-e4c8f9604718
 

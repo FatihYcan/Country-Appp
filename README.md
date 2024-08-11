@@ -34,4 +34,6 @@ Bu proje, dünya üzerindeki ülkeler hakkında bilgi aramak ve görüntülemek 
 - **Bootstrap 5**
 - **REST Countries API**
 
-[Canlı Demo'yu Deneyin](https://3-level-sayi-bulma-oyunu.netlify.app/)
+https://github.com/user-attachments/assets/e9ca0683-6cbd-4f11-95a0-e4c8f9604718
+
+[Canlı Demo'yu Deneyin](https://app-country-app.netlify.app/)

@@ -1,4 +1,4 @@
-CountryApp
+# CountryApp
 
 This project is a web application used to search and display information about countries around the world. It retrieves country information using the REST Countries API and allows the user to search and view country details.
 
